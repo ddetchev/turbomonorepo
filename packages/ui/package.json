@@ -5,9 +5,11 @@
     "**/*.css"
   ],
   "exports": {
-    "./styles.css": "./src/styles.css",
+    "./styles": "./src/styles.css",
     "./card": "./src/card.tsx",
-    "./talk": "./src/talk.tsx"
+    "./talk": "./src/talk.tsx",
+    "./bottomnav": "./src/bottomnav.tsx",
+    "./navsquare": "./src/navsquare.tsx"
   },
   "license": "MIT",
   "scripts": {

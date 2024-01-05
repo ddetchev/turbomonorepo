@@ -1,3 +1,58 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+body {
+    background-color: black;
+}
+
+.white {
+    color: white;
+}
+
+li.inline {
+    display: inline-block;
+    padding-left: 40px;
+}
+
+div.fixed {
+    position: fixed;
+    bottom: 5%;
+    right: 3%;
+    display: inline-block;
+}
+
+div.wider {
+    width: 90%;
+    height: 9%;
+    
+}
+
+div.vertcent {
+    position: absolute;
+    right: 1%;
+    top: 20%;
+    
+}
+
+div.rel {
+    position: relative;
+    height: 100%;
+}
+
+div.navsquares {
+    display: inline-block;
+
+}
+
+div.navsquarecontainer {
+    position: absolute;
+    left: 8%;
+    top: 25%;
+    display: inline-block;
+}
+
+li.navsquares {
+    display: inline-block;
+    padding-left: 10px;
+}
