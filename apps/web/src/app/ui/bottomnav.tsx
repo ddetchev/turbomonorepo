@@ -8,7 +8,6 @@ import "@repo/ui/styles";
 const Navbar = () => {
   return (
     <>
-    <NavSquare />
       <div className="fixed wider rounded-lg bg-neutral-900">
         <div className="rel">
           <div className="navsquarecontainer">
@@ -28,7 +27,7 @@ const Navbar = () => {
               </li>
 
               </ul>
-            </div>"
+            </div>
         <div className="vertcent">
             {/* <NavSquare /> */}
             <ul>

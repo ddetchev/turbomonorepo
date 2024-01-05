@@ -56,3 +56,19 @@ li.navsquares {
     display: inline-block;
     padding-left: 10px;
 }
+
+div.midblock {
+    position: absolute;
+    top: 18%;
+    left: 50;
+    width: 43%;
+    height: 53%;
+    color: white;
+    padding: 2%;
+}
+
+div.profilepic {
+    position: absolute;
+    left: 50%;
+    top: 15%;
+}
