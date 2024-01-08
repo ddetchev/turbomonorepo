@@ -10,6 +10,10 @@ body {
     color: white;
 }
 
+.gray {
+    color: gray;
+}
+
 li.inline {
     display: inline-block;
     padding-left: 40px;
@@ -71,4 +75,26 @@ div.profilepic {
     position: absolute;
     left: 50%;
     top: 15%;
+}
+
+/* svg {
+    transform: rotate(90deg);
+} */
+
+.popuppos {
+    position: absolute;
+    right: 3%;
+    bottom: 17%;
+}
+
+.flexcontainer {
+    position: absolute;
+    width: 81%;
+    left: 5%;
+    top: 3%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-bottom: 1px solid #a28989;
+    padding-bottom: .7rem;
 }

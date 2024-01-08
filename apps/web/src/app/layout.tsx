@@ -4,6 +4,8 @@ import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import Navbar from "./ui/bottomnav";
 import NavTest from "./ui/navtest";
+import Popup from "./ui/popupnav";
+import TopTopNav from "./ui/toptopnav";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -22,7 +24,10 @@ export default function RootLayout({
       <body>
         {children}
         {/* <NavTest /> */}
+        <TopTopNav />
+        <Popup />
         <Navbar />
+        
         </body>
     </html>
   );
