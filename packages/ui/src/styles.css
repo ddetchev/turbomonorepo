@@ -159,9 +159,12 @@ div.profilepic {
 .smalldashpiece {
     width: 30%;
     height: 45%;
+    /* margin: 1rem; */
+    padding: 1rem;
 }
 
 .longdashpiece {
+    padding: 1rem;
     width: 62%;
     height: 45%;
     background-color: #D5FDB1;

@@ -6,29 +6,29 @@ export default function TopTopNav() {
 
         <div className='flextoptopcontainer'>
 
-            <p className='gray text-xs hover:text-white' style={{['padding-right' as any] : '4rem'}}>CHANGE VIEW</p>
-            <p className='white' style={{['padding-right' as any] : '2rem'}}>Grid</p>
-            <p className='gray hover:text-white' style={{['padding-right' as any] : '15rem'}}>List</p>
-            <p className='gray text-xs hover:text-white' style={{['padding-right' as any] : '5rem'}}>TYPE</p>
+            <p className='gray text-xs hover:text-white' style={{['paddingRight' as any] : '4rem'}}>CHANGE VIEW</p>
+            <p className='white' style={{['paddingRight' as any] : '2rem'}}>Grid</p>
+            <p className='gray hover:text-white' style={{['paddingRight' as any] : '15rem'}}>List</p>
+            <p className='gray text-xs hover:text-white' style={{['paddingRight' as any] : '5rem'}}>TYPE</p>
 
             <Link href="/all">
-                <p className="white" style={{['padding-right' as any] : '2rem'}}>All</p>
+                <p className="white" style={{['paddingRight' as any] : '2rem'}}>All</p>
             </Link>
 
             <Link href="/direction">
-                <p className="gray hover:text-white" style={{['padding-right' as any] : '2rem'}}>Art Direction</p>
+                <p className="gray hover:text-white" style={{['paddingRight' as any] : '2rem'}}>Art Direction</p>
             </Link>
 
             <Link href="/production">
-                <p className="gray hover:text-white" style={{['padding-right' as any] : '2rem'}}>Production</p>
+                <p className="gray hover:text-white" style={{['paddingRight' as any] : '2rem'}}>Production</p>
             </Link>
 
             <Link href="/identity">
-                <p className="gray hover:text-white" style={{['padding-right' as any] : '2rem'}}>Brand Identity</p>
+                <p className="gray hover:text-white" style={{['paddingRight' as any] : '2rem'}}>Brand Identity</p>
             </Link>
 
             <Link href="/web">
-                <p className="gray hover:text-white" style={{['padding-right' as any] : '2rem'}}>Web</p>
+                <p className="gray hover:text-white" style={{['paddingRight' as any] : '2rem'}}>Web</p>
             </Link>
 
             <Link href="/management">
