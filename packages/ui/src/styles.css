@@ -86,6 +86,33 @@ div.profilepic {
     position: absolute;
     right: 3%;
     bottom: 17%;
+    z-index: 5;
+}
+
+.popup {
+    position: absolute;
+    bottom: 17.5%;
+    right: 3%;
+    height: 6%;
+    width: 50%;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-top: 1rem;
+    padding-left: 1rem;
+    padding-bottom: 1rem;
+    padding-right: 3rem;
+    z-index: 4;
+    justify-content: space-between;
+}
+
+.appear {
+    display: flex;
+}
+
+.disappear {
+    display: none;
 }
 
 .flextoptopcontainer {
