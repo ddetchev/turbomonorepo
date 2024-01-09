@@ -31,7 +31,7 @@ export default function Navbar() {
 
         
 
-        <div style={{['padding-left' as any] : '38rem'}}>
+        <div style={{['padding-left' as any] : '37rem'}}>
                 <Link href="/explore">
                   <p className="white">Explore</p>
                 </Link>

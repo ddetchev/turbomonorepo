@@ -16,7 +16,7 @@ export default function TopNav() {
             <div className="flexpointscontainer text-sm">
 
                 <p>Points: <b>3000XP</b></p>
-                <p className="text-xs">Active Journey: ACTIVE</p>
+                <p className="text-xs">Active Journey: <b>ACTIVE</b></p>
 
             </div>
 
