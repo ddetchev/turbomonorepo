@@ -32,6 +32,7 @@ div.wider {
     
 }
 
+
 div.vertcent {
     position: absolute;
     right: 1%;
@@ -87,14 +88,46 @@ div.profilepic {
     bottom: 17%;
 }
 
-.flexcontainer {
+.flextoptopcontainer {
     position: absolute;
     width: 81%;
     left: 5%;
-    top: 3%;
+    top: 1.5%;
     display: flex;
     flex-direction: row;
     align-items: center;
-    border-bottom: 1px solid #a28989;
+    border-bottom: 1px solid #625555;
     padding-bottom: .7rem;
+}
+
+.flextopcontainer {
+    position: absolute;
+    width: 73%;
+    left: 5%;
+    top: 9.5%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.flexpointscontainer {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-left: .8rem;
+    border-left: 1px solid #172554;
+    color: white;
+}
+
+.flexbottomcontainer {
+    position: absolute;
+    width: 90%;
+    height: 9%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    bottom: 5%;
+    right: 3%;
+    padding-left: 5%;
 }

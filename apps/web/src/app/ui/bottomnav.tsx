@@ -5,14 +5,68 @@ import "@repo/ui/styles";
 
 
 
-const Navbar = () => {
+export default function Navbar() {
   return (
     <>
-      <div className="fixed wider rounded-lg bg-neutral-900">
+      <div className="flexbottomcontainer rounded-lg bg-neutral-900">
+
+          
+          <div style={{['padding-left' as any] : '1.5rem', ['border-left' as any] : '1px solid #625555'}}>
+          <NavSquare />
+          </div>
+          <div style={{['padding-left' as any] : '.5rem'}}>
+          <NavSquare />
+          </div>
+          <div style={{['padding-left' as any] : '.5rem'}}>
+          <NavSquare />
+          </div>
+          <div style={{['padding-left' as any] : '.5rem'}}>
+          <NavSquare />
+          </div>
+          
+          
+          
+                  {/* <p className="white">Explore</p> */}
+        
+
+        
+
+        <div style={{['padding-left' as any] : '38rem'}}>
+                <Link href="/explore">
+                  <p className="white">Explore</p>
+                </Link>
+                </div>
+                <div style={{['padding-left' as any] : '2rem'}}>
+                <Link href="/members">
+                  <p className="white">Members</p>
+                </Link>
+                </div>
+                <div style={{['padding-left' as any] : '2rem'}}>
+                <Link href="/mentors">
+                  <p className="white">Mentors</p>
+                </Link>
+                </div>
+                <div style={{['padding-left' as any] : '2rem'}}>
+                <Link href="/network">
+                  <p className="white">Network</p>
+                </Link>
+                </div>
+                <div style={{['padding-left' as any] : '4rem', ['align-self' as any] : 'center'}}>
+                <Link href="/start">
+                <button type="button" className="focus:outline-none text-white bg-red-500 hover:bg-red-800 focus:ring-4 focus:ring-red-300 font-medium rounded-lg text-sm px-6 py-2 me-2 dark:bg-red-600 dark:hover:bg-red-700 dark:focus:ring-red-900">Start</button>
+                </Link>
+                </div>
+              
+
+        
+
+        </div>
+
+
+      {/* <div className="fixed wider rounded-lg bg-neutral-900">
         <div className="rel">
           <div className="navsquarecontainer">
             <ul>
-              
             <li className="navsquares">
               <NavSquare />
               </li>
@@ -29,7 +83,6 @@ const Navbar = () => {
               </ul>
             </div>
         <div className="vertcent">
-            {/* <NavSquare /> */}
             <ul>
               <li className="inline">
                 <Link href="/explore">
@@ -59,9 +112,8 @@ const Navbar = () => {
             </ul>
             </div>
             </div>
-            </div>
+            </div> */}
     </>
   );
 };
 
-export default Navbar;

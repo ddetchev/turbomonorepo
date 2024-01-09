@@ -4,7 +4,7 @@ export default function TopTopNav() {
 
     return (
 
-        <div className='flexcontainer'>
+        <div className='flextoptopcontainer'>
 
             <p className='gray text-xs hover:text-white' style={{['padding-right' as any] : '4rem'}}>CHANGE VIEW</p>
             <p className='white' style={{['padding-right' as any] : '2rem'}}>Grid</p>
