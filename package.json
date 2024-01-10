@@ -24,6 +24,7 @@
     "packages/*"
   ],
   "dependencies": {
+    "gsap": "^3.12.4",
     "heroicons": "^2.1.1"
   }
 }

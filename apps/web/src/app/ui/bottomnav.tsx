@@ -1,14 +1,32 @@
+'use client';
+
 import React from "react";
 import Link from "next/link";
 import NavSquare from "./navsquare";
 import "@repo/ui/styles";
+import gsap from "gsap";
+import Draggable from "gsap/Draggable";
+// import { useGSAP } from "@gsap/react";
+import { useEffect } from 'react';
 
 
 
 export default function Navbar() {
+
+  useEffect(() => {
+    
+    gsap.registerPlugin(Draggable);
+
+    Draggable.create("#flexer", {
+      bounds: "body"
+    })
+
+  });
+
+
   return (
     <>
-      <div className="flexbottomcontainer rounded-lg bg-neutral-900">
+      <div id="flexer" className="flexbottomcontainer rounded-lg bg-neutral-900">
 
           
           <div style={{['paddingLeft' as any] : '1.5rem', ['borderLeft' as any] : '1px solid #625555'}}>

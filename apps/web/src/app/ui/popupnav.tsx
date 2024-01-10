@@ -1,9 +1,20 @@
 'use client';
-
-import { useState } from "react";
+import gsap from "gsap";
+import Draggable from "gsap/Draggable";
+import { useState, useEffect } from "react";
 
 
 export default function Popup() {
+
+    useEffect(() => {
+      
+      gsap.registerPlugin(Draggable);
+
+      Draggable.create(".popuppos", {
+        bounds: "body"
+      })
+
+    });
 
     const [canSee, setSee] = useState(false);
 
