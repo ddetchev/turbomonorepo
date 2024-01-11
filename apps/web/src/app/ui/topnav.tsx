@@ -1,9 +1,10 @@
 export default function TopNav() {
 
     return (
+        <div>
+        {/* <div className="flextopcontainerhover>">test</div> */}
 
         <div className="flextopcontainer">
-            
             <p className="white text-xl">Welcome home, Chris.</p>
 
             <div>
@@ -23,7 +24,7 @@ export default function TopNav() {
             <p className="white text-sm">Top Skills: <b>Technology, Leadership, Operations</b></p>
 
         </div>
-    
+    </div>
     )
 
 }

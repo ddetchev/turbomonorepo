@@ -125,7 +125,15 @@ div.profilepic {
     align-items: center;
     border-bottom: 1px solid #625555;
     padding-bottom: .7rem;
+    opacity: .5;
+    -webkit-transition: opacity 1s;
+    transition: opacity 1s;
 }
+
+.flextoptopcontainer:hover {
+    opacity: 1;
+}
+
 
 .flextopcontainer {
     position: absolute;
@@ -136,6 +144,28 @@ div.profilepic {
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
+    background-color: black;
+    opacity: .5;
+    -webkit-transition: opacity 1s;
+    transition: opacity 1s;
+}
+
+.flextopcontainer:hover {
+    opacity: 1;
+}
+
+.flextopcontainerhover {
+    position: absolute;
+    width: 73%;
+    left: 5%;
+    top: 9.5%;
+    z-index: 10;
+    background-color: black;
+    opacity: .5;
+}
+
+.flextopcontainer:hover {
+    background-image: linear-gradient(rgb(0 0 0/40%) 0 0);
 }
 
 .flexpointscontainer {
@@ -196,3 +226,4 @@ div.profilepic {
     height: 45%;
     background-color: #D5FDB1;
 }
+
