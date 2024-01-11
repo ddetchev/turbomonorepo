@@ -18,7 +18,7 @@ export default function Navbar() {
     gsap.registerPlugin(Draggable);
 
     Draggable.create("#flexer", {
-      bounds: "body"
+      bounds: "html"
     })
 
   });

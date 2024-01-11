@@ -91,10 +91,10 @@ div.profilepic {
 
 .popup {
     position: absolute;
-    bottom: 17.5%;
+    bottom: .7vh;
     right: 3%;
-    height: 6%;
-    width: 50%;
+    height: 6vh;
+    width: 50vw;
     background-color: white;
     display: flex;
     flex-direction: row;
@@ -103,8 +103,14 @@ div.profilepic {
     padding-left: 1rem;
     padding-bottom: 1rem;
     padding-right: 3rem;
-    z-index: 4;
+    z-index: -1;
     justify-content: space-between;
+}
+
+.relativecontainer {
+    position: relative;
+    width: 100%;
+    height: 100%;
 }
 
 .appear {
@@ -221,9 +227,17 @@ div.profilepic {
 }
 
 .longdashpiece {
-    padding: 1rem;
     width: 62%;
     height: 45%;
     background-color: #D5FDB1;
+}
+
+
+
+
+.longdashflex {
+    /* display: flex;
+    flex-direction: column; */
+    width: 50%;
 }
 
