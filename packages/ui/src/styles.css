@@ -131,7 +131,7 @@ div.profilepic {
     align-items: center;
     border-bottom: 1px solid #625555;
     padding-bottom: .7rem;
-    opacity: .5;
+    opacity: .4;
     -webkit-transition: opacity 1s;
     transition: opacity 1s;
 }
@@ -151,7 +151,7 @@ div.profilepic {
     align-items: center;
     justify-content: space-between;
     background-color: black;
-    opacity: .5;
+    opacity: .4;
     -webkit-transition: opacity 1s;
     transition: opacity 1s;
 }
@@ -232,12 +232,27 @@ div.profilepic {
     background-color: #D5FDB1;
 }
 
-
-
-
 .longdashflex {
     /* display: flex;
     flex-direction: column; */
     width: 50%;
+}
+
+.sidenav {
+    position:absolute;
+    display: flex;
+    flex-direction: column;
+    width: 2.5vw;
+    height: 22vh;
+    top: 35vh;
+    right: 1vw;
+    padding-top: .5rem;
+    padding-bottom: 1rem;
+    padding-left: .5rem;
+    padding-right: .5rem;
+    background-color: white;
+    align-items: center;
+    justify-content: space-between;
+
 }
 

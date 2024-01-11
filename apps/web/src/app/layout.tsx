@@ -6,6 +6,7 @@ import Navbar from "./ui/bottomnav";
 import NavTest from "./ui/navtest";
 import Popup from "./ui/popupnav";
 import TopTopNav from "./ui/toptopnav";
+import SideNav from "./ui/sidenav";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -27,7 +28,7 @@ export default function RootLayout({
         <TopTopNav />
         <Popup />
         <Navbar />
-        
+        <SideNav />
         </body>
     </html>
   );
