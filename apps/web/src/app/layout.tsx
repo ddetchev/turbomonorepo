@@ -22,9 +22,15 @@ export default function RootLayout({
 }): JSX.Element {
   return (
     <html lang="en">
+
+      <head>
+          
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        
+      </head>
+
       <body className={`${inter.className} antialiased`}>
         {children}
-        {/* <NavTest /> */}
         <TopTopNav />
         <Popup />
         <Navbar />

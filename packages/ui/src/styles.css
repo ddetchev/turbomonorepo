@@ -2,6 +2,13 @@
 @tailwind components;
 @tailwind utilities;
 
+
+@media screen and (min-device-width: 1200px) 
+and (max-device-width: 1600px) 
+and (-webkit-min-device-pixel-ratio: 1) { 
+
+
+
 body {
     background-color: black;
 }
@@ -210,8 +217,8 @@ div.profilepic {
     position: absolute;
     top: 7%;
     left: 30%;
-    width: 60%;
-    height: 75%;
+    width: 60vw;
+    height: 75vh;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap-reverse;
@@ -222,8 +229,7 @@ div.profilepic {
 .smalldashpiece {
     width: 30%;
     height: 45%;
-    /* margin: 1rem; */
-    /* padding: 1rem; */
+    
 }
 
 .longdashpiece {
@@ -256,3 +262,4 @@ div.profilepic {
 
 }
 
+}
