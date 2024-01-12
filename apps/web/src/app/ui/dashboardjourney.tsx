@@ -1,5 +1,8 @@
 import SmallDashPiece from "./smalldashpiece"
+import SmallDashPieceTwo from "./smalldashpiecetwo"
+import SmallDashPieceThree from "./smalldashpiecethree"
 import LongDashPiece from "./longdashpiece"
+
 
 export default function DashJourney() {
 
@@ -31,8 +34,8 @@ export default function DashJourney() {
     <div className="flexmaindashcontainer">
 
         <SmallDashPiece />
-        <SmallDashPiece />
-        <SmallDashPiece />
+        <SmallDashPieceTwo />
+        <SmallDashPieceThree />
         <LongDashPiece />
 
     </div>
