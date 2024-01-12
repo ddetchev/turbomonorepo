@@ -22,7 +22,7 @@ export default function RootLayout({
 }): JSX.Element {
   return (
     <html lang="en">
-      <body>
+      <body className={`${inter.className} antialiased`}>
         {children}
         {/* <NavTest /> */}
         <TopTopNav />

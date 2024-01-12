@@ -1,6 +1,6 @@
 import { FaGlobe } from "react-icons/fa"
 
-export default function SmallDashPieceTwo() {
+export default function SmallDashPieceTwo( { dashsection, dashsectiontext } : any) {
 
     return (
 
@@ -8,8 +8,8 @@ export default function SmallDashPieceTwo() {
             <div style={{['padding' as any] : '1.2rem'}}>
                 <FaGlobe size={24} />
             </div>
-            <h1 style={{['paddingLeft' as any] : '1.2rem'}} className="text-lg font-bold">View your Profile</h1>
-            <p style={{['paddingLeft' as any] : '1.2rem', ['paddingRight' as any] : '1.2rem', ['paddingTop' as any] : '.5rem'}} className="text-xs">Learn more, and you may just learn more trying to learn more. Learn more, and you may just learn more.</p>
+            <h1 style={{['paddingLeft' as any] : '1.2rem'}} className="text-lg font-bold">{dashsection}</h1>
+            <p style={{['paddingLeft' as any] : '1.2rem', ['paddingRight' as any] : '1.2rem', ['paddingTop' as any] : '.5rem'}} className="text-xs">{dashsectiontext}</p>
 
         </div>
 

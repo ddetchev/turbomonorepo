@@ -1,11 +1,9 @@
-export default function TopNav() {
+export default function TopNav({ profilename, points, activity, topskills } : any) {
 
     return (
         <div>
-        {/* <div className="flextopcontainerhover>">test</div> */}
-
         <div className="flextopcontainer">
-            <p className="white text-xl">Welcome home, Chris.</p>
+            <p className="white text-xl">{`Welcome home, ${profilename}.`}</p>
 
             <div>
 
@@ -16,12 +14,12 @@ export default function TopNav() {
 
             <div className="flexpointscontainer text-sm">
 
-                <p>Points: <b>3000XP</b></p>
-                <p className="text-xs">Active Journey: <b>ACTIVE</b></p>
+                <p>Points: <b>{`${points}XP`}</b></p>
+                <p className="text-xs">Active Journey: <b>{activity}</b></p>
 
             </div>
 
-            <p className="white text-sm">Top Skills: <b>Technology, Leadership, Operations</b></p>
+            <p className="white text-sm">Top Skills: <b>{topskills}</b></p>
 
         </div>
     </div>
