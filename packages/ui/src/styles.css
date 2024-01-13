@@ -3,9 +3,9 @@
 @tailwind utilities;
 
 
-@media screen and (min-device-width: 1200px) 
+/* @media screen and (min-device-width: 1200px) 
 and (max-device-width: 1600px) 
-and (-webkit-min-device-pixel-ratio: 1) { 
+and (-webkit-min-device-pixel-ratio: 1) {  */
 
 
 
@@ -130,9 +130,12 @@ div.profilepic {
 
 .flextoptopcontainer {
     position: absolute;
-    width: 85%;
-    left: 5%;
-    top: 1.5%;
+    /* width: 85%; */
+    width: 80.3rem;
+    /* left: 5%; */
+    /* top: 1.5%; */
+    left: 4rem;
+    top: .5rem;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -262,4 +265,4 @@ div.profilepic {
 
 }
 
-}
+/* } */
