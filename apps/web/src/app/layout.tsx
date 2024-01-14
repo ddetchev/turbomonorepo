@@ -30,11 +30,16 @@ export default function RootLayout({
       </head>
 
       <body className={`${inter.className} antialiased`}>
+      <header>
+          <TopTopNav />
+        </header>
+        
         {children}
-        <TopTopNav />
-        <Popup />
         <Navbar />
-        <SideNav />
+        
+        {/* <Popup />
+        <Navbar />
+        <SideNav /> */}
         </body>
     </html>
   );

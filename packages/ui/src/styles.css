@@ -9,8 +9,13 @@ and (-webkit-min-device-pixel-ratio: 1) {  */
 
 
 
-body {
+
+
+
+html, body {
     background-color: black;
+    overflow: hidden;
+    height: 100%;
 }
 
 .white {
@@ -70,11 +75,12 @@ li.navsquares {
 }
 
 div.midblock {
-    position: absolute;
-    top: 18%;
-    left: 50;
-    width: 43%;
-    height: 53%;
+    /* margin-top: -32rem; */
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -30rem;
+    width: 40rem;
+    height: 23rem;
     color: white;
     padding: 2%;
 }
@@ -90,17 +96,20 @@ div.profilepic {
 } */
 
 .popuppos {
-    position: absolute;
-    right: 3%;
-    bottom: 17%;
+    position: relative;
+    display: flex;
+    align-items: center;
+    margin-bottom: -5rem;
+    margin-left: 87rem;
+    margin-top: 3rem;
     z-index: 5;
 }
 
 .popup {
     position: absolute;
-    bottom: .7vh;
-    right: 3%;
-    height: 6vh;
+    /* right: 60%; */
+    right: 0;
+    height: 2.8rem;
     width: 50vw;
     background-color: white;
     display: flex;
@@ -129,13 +138,8 @@ div.profilepic {
 }
 
 .flextoptopcontainer {
-    position: absolute;
-    /* width: 85%; */
     width: 80.3rem;
-    /* left: 5%; */
-    /* top: 1.5%; */
-    left: 4rem;
-    top: .5rem;
+    margin: .5rem 0rem 0rem 4rem;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -152,10 +156,8 @@ div.profilepic {
 
 
 .flextopcontainer {
-    position: absolute;
-    width: 73%;
-    left: 5%;
-    top: 9.5%;
+    width: 65rem;
+    margin: -5rem 0rem 0rem -10rem;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -194,15 +196,13 @@ div.profilepic {
 }
 
 .flexbottomcontainer {
-    position: absolute;
-    width: 90%;
-    height: 9%;
+    width: 87rem;
+    height: 3.5rem;
     display: flex;
     flex-direction: row;
     align-items: center;
-    bottom: 5%;
-    right: 3%;
     padding-left: 5%;
+    margin: -3.5rem 0rem 0rem 6rem;
 }
 
 .flexdashcontainer {
@@ -251,10 +251,14 @@ div.profilepic {
     position:absolute;
     display: flex;
     flex-direction: column;
-    width: 2.5vw;
-    height: 22vh;
-    top: 35vh;
-    right: 1vw;
+    /* width: 2.5vw; */
+    /* height: 22vh; */
+    width: 2.4rem;
+    height: 9.5rem;
+    /* top: 35vh; */
+    /* right: 1vw; */
+    top: 15rem;
+    right: .5rem;
     padding-top: .5rem;
     padding-bottom: 1rem;
     padding-left: .5rem;
