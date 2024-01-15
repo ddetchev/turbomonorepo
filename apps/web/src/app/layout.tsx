@@ -35,7 +35,8 @@ export default function RootLayout({
         </header>
         
         {children}
-        <Navbar />
+          <Navbar />
+        {/* <Navbar /> */}
         
         {/* <Popup />
         <Navbar />

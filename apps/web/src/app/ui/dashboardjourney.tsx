@@ -2,6 +2,7 @@ import SmallDashPiece from "./smalldashpiece"
 import SmallDashPieceTwo from "./smalldashpiecetwo"
 import LongDashPiece from "./longdashpiece"
 import DashProgress from "./dashboardprogress"
+import SideNav from "./sidenav"
 
 
 export default function DashJourney() {
@@ -9,7 +10,7 @@ export default function DashJourney() {
     return (
 
     <>
-    
+    <div className="dashtotalflex">
     <DashProgress profilename="Chris" activity="ACTIVE" points="3000" topskills="Technology, Leadership, Operations" />
 
     <div className="flexmaindashcontainer">
@@ -20,7 +21,7 @@ export default function DashJourney() {
         <LongDashPiece sessionName="Dath" sessionImage="/dath.png"/>
 
     </div>
-
+        </div>
     </>
     )
 
