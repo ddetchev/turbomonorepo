@@ -1,5 +1,5 @@
 // import "./globals.css";
-// import "@repo/ui/styles";
+import "@repo/ui/styles";
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import Navbar from "./ui/bottomnav";
