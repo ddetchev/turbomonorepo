@@ -1,5 +1,5 @@
 import TopNav from "./ui/topnav";
-import "@repo/ui/styles";
+// import "@repo/ui/styles";
 import Middle from "./ui/homemiddle";
 import Popup from "./ui/popupnav";
 import SideNav from "./ui/sidenav";
