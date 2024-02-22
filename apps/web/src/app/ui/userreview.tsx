@@ -4,7 +4,7 @@ export default function Review() {
         <div>
 
         <div className="content flex py-2">
-            <img className="w-24 h-24" src="profilepic.png" alt=""></img>
+            <img className="w-24 h-24" style = {{clipPath : "circle()"}} src="dummy.png" alt=""></img>
             <div className="item-body px-2 ">
                 <br></br>
             Jessica Merlin
